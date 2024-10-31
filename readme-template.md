@@ -50,14 +50,12 @@ If you decide to run it locally:
 Book Explorer is largely ready, even though I might still tinker with the UI to make it more accessible and pleasant to use.
 
 ## Credits
-List of contriubutors and sources you used during the project. Also mention if you used ChatGPT or other AI tools when coding and explain how did you benefit from them.
-- [John Doe](johndoe.com)
-- [Beginners guide to BEM](link-goes-here.com)
 - [Google's Volume Documentation](https://developers.google.com/books/docs/v1/reference/volumes)
 - [Google's API Documentation](https://developers.google.com/books/docs/v1/using#APIKey)
 - [W3Schools](https://www.w3schools.com/jsref/api_fetch.asp)
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
     - Plus a lot of other articles there, but I did not keep track of them all.
+- [This site offered some help when I trouble getting the thumbnails to show up](https://codepen.io/Kicky/pen/ZxvvqE)
 - Past workshops.
 - ChatGPT was utilised to complement my learning by asking it for examples on how certain technologies and methods work and can be used in various different situations.
     - I do believe it has been a reasonably "good" aide during this project since it has helped me process more indepth how certain aspects of JavaScript work and how they can be utilised.

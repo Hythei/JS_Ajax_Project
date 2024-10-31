@@ -1,0 +1,139 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+
+#main {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+#search_form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#search_form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form_subBtn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#form_subBtn:hover {
+    background-color: #0056b3;
+}
+
+
+#information_display {
+    margin-top: 20px;
+}
+
+#information_header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+#information_header p {
+    flex: 1;
+    text-align: center;
+}
+
+
+#book_table {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1em;
+}
+
+#book_table tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #fafafa;
+    transition: box-shadow 0.3s;
+}
+
+#book_table td {
+    max-width: 20%;
+}
+
+
+#book_table p {
+    flex: 1;
+    text-align: center;
+}
+
+
+#book_table img {
+    width: auto;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 600px) {
+    #book_table {
+        display: block;
+        
+    }
+    #book_table tr {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap; 
+        margin: auto;
+    }
+    #book_table td {
+        flex: 1 1 100%; 
+    }
+    #information_header{
+        display: none;
+    }
+}

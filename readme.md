@@ -26,8 +26,8 @@ The app is connected to Google Books via an API and it requests information acco
 
 ## Screenshots
 Add here atleast one screenshot of the working application 
-[Pre-search](assets/screenshot2.png)
-[Post-search](assets/screenshot1.png)
+![Pre-search](assets/screenshot2.png)
+![Post-search](assets/screenshot1.png)
 
 
 ## Technologies
